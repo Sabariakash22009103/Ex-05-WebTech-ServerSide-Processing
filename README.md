@@ -98,7 +98,7 @@ math.html :
             </div>
         </form>
     </div>
-     <p>Developed by Aldrin lijo J E(22008844)</p>
+     <p>Developed by Sabari Akash A (22009103)</p>
 </body>
 </html>
 
@@ -134,6 +134,7 @@ urlpatterns = [
 
 ```
 # OUTPUT:
+![Uploading Screenshot_20230115_091300.png…]()
 
 # RESULT:
 
