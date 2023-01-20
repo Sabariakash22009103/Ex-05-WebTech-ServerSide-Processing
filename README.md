@@ -134,7 +134,8 @@ urlpatterns = [
 
 ```
 # OUTPUT:
-![Uploading Screenshot_20230115_091300.png…]()
+![Screenshot_20230115_091300](https://user-images.githubusercontent.com/119390227/213644130-37ceed96-64af-456d-b2dd-864edf673a9f.png)
+
 
 # RESULT:
 
