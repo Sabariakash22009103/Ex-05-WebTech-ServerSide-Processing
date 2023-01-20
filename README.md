@@ -134,7 +134,6 @@ urlpatterns = [
 
 ```
 # OUTPUT:
-![output](/Screenshot_20230115_091300.png)
 
 # RESULT:
 
