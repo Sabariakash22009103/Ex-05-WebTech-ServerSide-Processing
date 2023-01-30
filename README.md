@@ -105,7 +105,8 @@ math.html :
 
 ```
 # OUTPUT:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/119390227/215377005-eef07ba9-ee15-4aa9-ae7c-2e2f8fdf23cc.png)
+
 
 
 # RESULT:
