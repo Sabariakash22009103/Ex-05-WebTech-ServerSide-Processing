@@ -102,39 +102,10 @@ math.html :
 </body>
 </html>
 
-views.py :
-
-from django.shortcuts import render
-def areacalculation(request): 
-    context ={} 
-    context["area"]='0' 
-    context["b"]='0' 
-    context["h"]='0' 
-    if request.method == 'POST':
-        b=request.POST.get('base','0')
-        h=request.POST.get('height','0')
-        area=0.5*int(b)*int(h)
-        context['area'] = area
-        context['b']=b
-        context['h']=h
-    return render(request,"aldrinapp/math.html",context)
-
-    url.py :
-
-from django.contrib import admin
-from django.urls import path
-from aldrinapp import views
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('areaoftriangle/',views.areacalculation,name="areaoftriangle"),
-    path('',views.areacalculation,name="areaoftriangleroot")
-]
-
 
 ```
 # OUTPUT:
-![Screenshot_20230115_091300](https://user-images.githubusercontent.com/119390227/213644130-37ceed96-64af-456d-b2dd-864edf673a9f.png)
+![Uploading image.png…]()
 
 
 # RESULT:
